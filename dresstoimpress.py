@@ -1,4 +1,5 @@
 import tkinter as tk
+import random
 
 # Create the main game window
 window = tk.Tk()
@@ -25,9 +26,12 @@ welcome = tk.Label(
     fg="black"
 )
 welcome.pack(pady=20)
+# List of fashion themes
+themes = ["Casual", "Red Carpet", "Beach Day"]
 # Function to start the game
 def start_game():
-    welcome.config(text="Choose an outfit to match the theme!")
+    theme = random.choice(themes)
+    welcome.config(text="Your theme is: " + theme)
     start_button.config(state="disabled")
 
 # Start Game button

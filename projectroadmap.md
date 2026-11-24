@@ -36,6 +36,6 @@ Assigned to: Me
 
 - [x] Create a basic Tkinter game window
 - [x] Add a welcome screen and Start button
-- [ ] Create three fashion themes
+- [x] Create three fashion themes
 - [ ] Add buttons for outfit selections
 - [ ] Test the basic game features
