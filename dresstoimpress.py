@@ -25,6 +25,20 @@ welcome = tk.Label(
     fg="black"
 )
 welcome.pack(pady=20)
+# Function to start the game
+def start_game():
+    welcome.config(text="Choose an outfit to match the theme!")
+    start_button.config(state="disabled")
+
+# Start Game button
+start_button = tk.Button(
+    window,
+    text="Start Game",
+    font=("Arial", 16),
+    fg="deeppink",
+    command=start_game
+)
+start_button.pack(pady=20)
 
 # Keep the game window open
 window.mainloop()
