@@ -34,8 +34,8 @@ During Sprint 1, I set up my GitHub repository, updated my README file, and rese
 
 Assigned to: Me
 
-- [ ] Create a basic Tkinter game window
-- [ ] Add a welcome screen and Start button
+- [x] Create a basic Tkinter game window
+- [x] Add a welcome screen and Start button
 - [ ] Create three fashion themes
 - [ ] Add buttons for outfit selections
 - [ ] Test the basic game features
